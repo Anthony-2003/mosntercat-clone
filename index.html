@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Level Days - Monstercat</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script type="module" src="index.js" defer></script>
+    <script src="https://kit.fontawesome.com/b74657a5b7.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+    <section class="hero">
+        <div class="body-background">     
+        </div>
+        <header class="header">
+            <img src="https://storage.googleapis.com/monstercat/monstercat-logo.webp" alt="logo" class="logo">
+            <div class="header__icons">
+                <i class='bx bx-menu' style='color:#ffffff' ></i>
+                <div class="header__social">
+                    <i class='bx bxl-instagram' style="color: #ffffff;"></i>
+                    <i class='bx bxl-tiktok' style='color:#ffffff' ></i>
+                    <i class='bx bxl-twitter' style='color:#ffffff' ></i>
+                    <i class='bx bxl-twitch' style='color:#ffffff' ></i>
+                    <i class='bx bxl-discord' style='color:#ffffff' ></i>
+                    <i class='bx bx-play' style='color:#ffffff' ></i>
+                </div>  
+            </div>
+        </header>
+        <section class="hero__description">
+            <div class="hero__container">
+                <h2 class="hero__subtitle"><span class="hero__subtitle--green">Instinct</span> — Released May 22, 2020</h2>
+                <img src="https://cdx.monstercat.com/resized/8a169d846576fcdad7a0a6e04d371eb05b2a9397/600.webp" class="hero__img" alt="">
+            </div>
+            <div class="hero__texts">
+                <h2 class="hero__texts__subtitle hero__texts__subtitle--transparent">Level Days</h2>
+                <h2 class="hero__texts__subtitle">Conro</h2>
+                <div class="hero__buttons">
+                      <button type="button" class="hero__buttons__btn hero__buttons__btn--listen"><i class='bx bx-play'></i>LISTEN NOW</button>
+                      <button type="button" class="hero__buttons__btn hero__buttons__btn--share"><i class='bx bx-share-alt'></i>SHARE</button>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <main class="main">
+        <h1 class="title main__title">stream it your way</h1>
+        <div class="main__icons">
+            <div class="icon__container">
+                <i class='bx bx-play' style='color:#ffffff'></i><span class="icon--letters">player</span>
+            </div>
+            <div class="icon__container">
+                <i class='bx bxs-compass'></i>
+            </div>
+            <div class="icon__container">
+                <i class='bx bxl-soundcloud' style='color:#ffffff' ></i>
+            </div>
+            <div class="icon__container">
+                <i class='bx bxl-apple' style='color:#ffffff' ></i>
+            </div>
+            <div class="icon__container">
+                <i class='bx bxl-youtube' style='color:#ffffff' ></i>
+            </div>
+            <div class="icon__container">
+                <i class='bx bxl-spotify' style='color:#ffffff' ></i>
+            </div>
+        </div>
+
+        <section class="track">
+          <h2 class="title track__title">track list</h2>
+          <div class="track__container">
+              <div class="track-item">
+                <div class="track-item__left">
+                   <h3>1</h3>
+                   <audio src="music/opening15.mp3" preload=”metadata” loop></audio>
+                   <i class='track-item__left__icon bx bx-play' id="playIcon"></i>
+                   <div class="track-item__left__music">
+                      <h3 class="track-item__left__music__name">Opening 15 one piece</h3>
+                      <h4 class="track-item__left__music__author">Conro</h4>
+                   </div>
+                </div>
+                <div class="track-item__right">
+                  <h3 class="track-item__right__minutes">3:35</h3>
+                  <i class='bx bx-share-alt'></i>
+                </div>
+              </div>
+
+              <div class="track-item">
+                <div class="track-item__left">
+                   <h3>2</h3>
+                   <audio src="music/pokemon.mp3" preload=”metadata” loop></audio>
+                   <i class='track-item__left__icon bx bx-play' id="playIcon"></i>
+                   <div class="track-item__left__music">
+                      <h3 class="track-item__left__music__name">Sugar Song to Bitter Step</h3>
+                      <h4 class="track-item__left__music__author">Conro</h4>
+                   </div>
+                </div>
+                <div class="track-item__right">
+                  <h3 class="track-item__right__minutes">3:35</h3>
+                  <i class='bx bx-share-alt'></i>
+                </div>
+              </div>
+
+              <div class="track-item">
+                <div class="track-item__left">
+                   <h3>3</h3>
+                   <audio src="music/out of time.mp3" preload=”metadata” loop></audio>
+                   <i class='track-item__left__icon bx bx-play' id="playIcon"></i>
+                   <div class="track-item__left__music">
+                      <h3 class="track-item__left__music__name">Out of time</h3>
+                      <h4 class="track-item__left__music__author">Conro</h4>
+                   </div>
+                </div>
+                <div class="track-item__right">
+                  <h3 class="track-item__right__minutes">3:35</h3>
+                  <i class='bx bx-share-alt'></i>
+                </div>
+              </div>
+          </div>
+        </section>
+
+        <section class="music">
+           <h2 class="music__title title">music video</h2>
+           <iframe class="music__video" src="https://www.youtube.com/embed/7nObtWENgxA" frameborder="0" allowfullscreen></iframe>
+        </section>
+    </main>
+ 
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="footer__left">
+                <ul class="footer__list footer__left__list">
+                    <li class="footer__left__list__item">about monstercat</li>
+                    <li class="footer__left__list__item">contact us</li>
+                    <li class="footer__left__list__item">careers</li>
+                    <li class="footer__left__list__item">news</li>
+                    <li class="footer__left__list__item">press</li>
+                </ul>
+            </div>
+            <div class="footer__mid">
+                <ul class="footer__list footer__mid__list">
+                    <li class="footer__right__list__item">terms of service</li>
+                    <li class="footer__right__list__item">privacy policy</li>
+                </ul>
+            </div>
+            <div class="footer__right">
+                <h3 class="footer__right__title">monstercat news</h3>
+                <p class="footer__right__paragraph">Don't miss a thing, stay up to date with the latest news from us.</p>
+                <form class="footer__right__form">
+                    <input class="footer__right__form__input" type="email" name="email" id="email" placeholder="Enter email">
+                    <button class="footer__right__form__button"><i class='bx bx-right-arrow-alt'></i></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer__mid">
+         <p class="footer__mid__paragraph">2011 - 2023 © Monstercat, All Rights Reserved</p>
+         <div class="footer__mid__social-media">
+            <i class='bx bxl-youtube' style='color:#ffffff'></i>
+            <i class='bx bxl-instagram' style='color:#ffffff'></i>
+            <i class='bx bxl-tiktok' style='color:#ffffff'></i>
+            <i class='bx bxl-twitter' style='color:#ffffff'></i>
+            <i class='bx bxl-spotify' style='color:#ffffff'></i>
+            <i class='bx bxl-apple' style='color:#ffffff'></i>
+            <i class='bx bxl-twitch' style='color:#ffffff'></i>
+            <i class='bx bxl-facebook-circle' style='color:#ffffff'></i>
+            <i class='bx bxl-discord' style='color:#ffffff'></i>
+         </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p class="footer__bottom__paragraph">We acknowledge with gratitude the traditional, ancestral and unceded land of the Coast Salish peoples, including the territories of the Sḵwx̱wú7mesh (Squamish), Stó:lō and Səl̓ílwətaʔ/Selilwitulh (Tsleil-Waututh) and xʷməθkʷəy̓əm (Musqueam) Nations, on which Monstercat's Vancouver HQ stands.</p>
+
+          <p class="footer__bottom__paragraph footer__bottom__paragraph--margin">We acknowledge the unceded and ancestral territories of the Gabrielino/Tongva peoples on which our LA team live and work.</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
